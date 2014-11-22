@@ -5,7 +5,7 @@ class BookmarksController < ApplicationController
 	end
 
 	def create
-		@bookmark = CreateBookmark.new(paramas[:bookmark]).create
+		@bookmark = CreateBookmark.new(params[:bookmark]).create
 		
 		if @bookmark
 			head 201
