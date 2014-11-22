@@ -11,7 +11,7 @@ gem 'sqlite3'
 gem 'active_model_serializers'
 gem 'minitest-rails'
 gem 'protected_attributes'
-
+gem 'yard'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.1.2'
 
