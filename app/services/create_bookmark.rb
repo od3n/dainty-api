@@ -1,5 +1,5 @@
 class CreateBookmark
-	attr_reader :bookmark
+	#attr_reader :bookmark
 	def initialize data
 		@data = data
 	end
